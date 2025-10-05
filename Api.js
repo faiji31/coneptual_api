@@ -24,3 +24,9 @@ arr1.push(6)
 arr1.push(10)
 arr1.push({name:"liam",age:25});
 console.log(arr1)
+
+// FIlter
+
+const arr2=[1,2,3,4,5,6,3]
+const filter = arr2.filter(num=>num!==3)
+console.log(filter)
