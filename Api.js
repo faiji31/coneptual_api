@@ -28,5 +28,7 @@ console.log(arr1)
 // FIlter
 
 const arr2=[1,2,3,4,5,6,3]
-const filter = arr2.filter(num=>num!==3)
+const filter = arr2.filter(num=>num===1)
 console.log(filter)
+
+// find() hocce kno kisu khuje ber korar jonno
